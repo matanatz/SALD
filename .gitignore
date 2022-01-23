@@ -1,0 +1,11 @@
+*__pycache__*
+*.ipynb_checkpoints*
+*DS_S*
+*idea*
+exps
+*.npy
+code/.vscode/settings.json
+code/confs/local.conf
+code/.vscode/
+*.pt
+
