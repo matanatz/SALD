@@ -6,7 +6,8 @@ SALD is a method for learning implicit neural representations of shapes directly
 
 For more details visit: https://openreview.net/pdf?id=7EDgLu9reQD.
 
-
+### Installation Requirmenets
+The code is compatible with python 3.6 and pytorch 1.10. Conda environment file is provided at ```./envsald.yml```.
 ### Usage
 
 ##### Data
