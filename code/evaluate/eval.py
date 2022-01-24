@@ -159,7 +159,7 @@ def evaluate(network,exps_folder_name, experiment_name, timestamp, epoch, resolu
     chamfer_results = dict(files=[],reg_to_gen_chamfer=[],gen_to_reg_chamfer=[],scan_to_gen_chamfer=[],gen_to_scan_chamfer=[])
 
     
-    split_filename = './confs/splits/{0}'.format(conf.get_string('train.data_split' ))
+    split_filename = './confs/splits/{0}'.format(conf.get_string('train.test_split' ))
     with open(split_filename, "r") as f:
         split = json.load(f)
     
@@ -396,7 +396,7 @@ if __name__ == '__main__':
     arg_parser.add_argument("--override", required=False, help='Override exp name.',default='')
     arg_parser.add_argument("--exps_folder_name", default="exps", help='The experiments directory.')
     arg_parser.add_argument("--timestamp", required=False, default='latest')
-    arg_parser.add_argument("--conf", required=False , default='./confs/dfaust_local.conf')
+    arg_parser.add_argument("--conf", required=False , default='./confs/dfaust_vae.conf')
     arg_parser.add_argument("--checkpoint", help="The checkpoint to test.", default='latest')
     arg_parser.add_argument("--split", required=False,help="The split to evaluate.",default='')
     arg_parser.add_argument("--parallel", default=False, action="store_true", help="Should be set to True if the loaded model was trained in parallel mode")

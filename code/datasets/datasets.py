@@ -2,23 +2,8 @@ import torch
 import torch.utils.data as data
 import numpy as np
 import os
-import sys
-import time
 import logging
-sys.path.append('../code')
 from utils.general import *
-from utils.plots import plot_threed_scatter
-import utils.general as utils
-import logging
-import utils.plots as  plt
-from trimesh.sample import sample_surface_even
-from shapely.geometry import Polygon,Point
-import utils.general as utils
-from shapely.geometry import LineString
-import plotly.figure_factory as ff
-import scipy.io as sio
-import json
-import pandas as pd
 import logging
 
 class DFaustDataSet(data.Dataset):
