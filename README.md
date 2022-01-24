@@ -19,12 +19,18 @@ cd ./code
 python preprocess/preprocess_dfaust.py 
 ```
 
-
 ##### Training
 For training, run:
 ```
 cd ./code
 python training/exp_runner.py
+```
+
+##### Predicting meshed surfaces with SALD trained network
+We have uploaded SALD trained network. To produce predictions on unseen test scans, run:
+```
+cd ./code
+python evaluate/evaluate.py  --parallel
 ```
 
 ### Citation
