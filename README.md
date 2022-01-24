@@ -8,10 +8,9 @@ For more details visit: https://openreview.net/pdf?id=7EDgLu9reQD.
 
 
 ### Usage
-#### Learning shape space from the D-Faust dataset raw scans
 
 ##### Data
-The raw scans can be downloaded from http://dfaust.is.tue.mpg.de/downloads.
+The DFaust raw scans can be downloaded from http://dfaust.is.tue.mpg.de/downloads.
 In order to be able to run the training process, the raw scans need to be preprocessed using:
 
 ```
