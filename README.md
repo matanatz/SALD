@@ -2,9 +2,9 @@
 
 This repository contains an implementation to the ICLR 2021 paper SALD: Sign Agnostic Learning with Derivatives.
 
-SALD is a method for learning implicit neural representations of shapes directly from raw data. We generalize sign agnostic learning (SAL) to include derivatives: given an unsigned distance function to the input raw data, we advocate a novel sign agnostic regression loss, incorporating both pointwise values and gradients of the unsigned distance function. Optimizing this loss leads to a signed implicit function solution, the zero level set of which is a high quality and valid manifold approximation to the input 3D data. The motivation behind SALD is that incorporating derivatives in a regression loss leads to a lower sample complexity, and consequently better fitting. In addition, we provide empirical evidence, as well as theoretical motivation in 2D that SAL enjoys a minimal surface property, favoring minimal area solutions. More importantly, we are able to show that this property still holds for SALD, i.e.,  with derivatives included.
+SALD is a method for learning implicit neural representations of shapes directly from raw data. We generalize sign agnostic learning (SAL) to include derivatives: given an unsigned distance function to the input raw data, we advocate a novel sign agnostic regression loss, incorporating both pointwise values and gradients of the unsigned distance function. Optimizing this loss leads to a signed implicit function solution, the zero level set of which is a high quality and valid manifold approximation to the input 3D data. The motivation behind SALD is that incorporating derivatives in a regression loss leads to a lower sample complexity, and consequently better fitting. 
 
-For more details visit: https://openreview.net/pdf?id=7EDgLu9reQD.
+For more details, please visit: https://openreview.net/pdf?id=7EDgLu9reQD.
 
 ### Installation Requirmenets
 The code is compatible with python 3.6 and pytorch 1.10. Conda environment file is provided at ```./envsald.yml```.
