@@ -37,8 +37,8 @@ python evaluate/evaluate.py  --parallel
 If you find our work useful in your research, please consider citing:
 
        @inproceedings{atzmon2021sald,
-	  author    = {Matan Atzmon and
-	               Yaron Lipman},
+	author    = {Matan Atzmon and
+	             Yaron Lipman},
   	title     = {{SALD:} Sign Agnostic Learning with Derivatives},
   	booktitle = {9th International Conference on Learning Representations, {ICLR} 2021},
   	year      = {2021}
